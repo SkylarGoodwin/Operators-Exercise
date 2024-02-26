@@ -17,7 +17,7 @@ internal class Program
 
         double areaCircle = Math.PI * radius * radius;
 
-        Console.WriteLine("The area of a circle with a radius of ",radius," is ",areaCircle);
+        Console.WriteLine($"The area of a circle with a radius of {radius} is {areaCircle}");
 
     }
 }
